@@ -33,4 +33,15 @@ vejamos os itens abaixo:
 
 - **Arquivo.java**: Todo arquivo .java deve começar com letra maiúscula. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo: Calculadora.java , CalculadoraCientifica.java 
 
+- **Nome da Classe no Arquivo**: A classe deve possuir o mesmo nome do arquivo .java, exemplo
+```
+// arquivo CalculadoraCientifica.java
+
+public class CalculadoraCientifica {
+
+}
+```
+
+
+
 

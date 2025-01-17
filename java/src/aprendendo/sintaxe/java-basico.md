@@ -20,8 +20,11 @@ classes executáveis: tem a capacidade de realizar a inicialização de um proje
 
 ```
 public class HelloWorld {
-	public static void main (String[] args){}
+	public static void main (String[] args){
+		System.out.printl("olá, mundo");
+	}
 }
 ```
+
 
 

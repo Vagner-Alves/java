@@ -1,5 +1,6 @@
-package java.aprendendo.sintaxe;
+package aprendendo.sintaxe;
 
 public class AnatomiadasClasses {
+	
 
 }

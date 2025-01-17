@@ -37,11 +37,18 @@ vejamos os itens abaixo:
 ```
 // arquivo CalculadoraCientifica.java
 
-public class CalculadoraCientifica {
-
-}
+public class CalculadoraCientifica {}
 ```
 
+- **Nome de Variável**: toda variável deve ser escrita com letra minúscula, porém se a palavra for composta, a primeira letra da segunda palavra deverá ser maiúscula, exemplo: ano e anoFabricacao. O nome dessa prática para nomear variáveis se chama " camelCase".  
 
+existe uma regra adicional para variáveis quando na mesma queremos identificar que ela não sofrerá alteração de valor, exemplo: queremos determinar que a variável de nome **br** sempre terá " Brasil" como valor, logo, temos a convenção de escrita abaixo.
+
+```
+String BR = "Brasil";
+double PI = 3.14;
+int ESTADOS_BRASILEIROS = 27;
+int ANO_2018 = 2018;
+ ```
 
 

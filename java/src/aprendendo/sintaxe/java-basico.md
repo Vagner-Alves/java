@@ -50,5 +50,5 @@ double PI = 3.14;
 int ESTADOS_BRASILEIROS = 27;
 int ANO_2018 = 2018;
  ```
-
+_escrevemos o nome da variável com letras maiúsculas_
 

@@ -77,6 +77,29 @@ int numero&um = 1; // os únicos símbolos permitidos são _ e $
 int 1numero = 1; // uma variável não pode começar com número
 int numero um = 1; // não pode ter espaço 
 
-int long = 1; // long é uma palavra reservada do java.
+int long = 1; // long é uma palavra reservada do java.
+// Corrigindo o nome das variáveis
+
+int numero$um = 1;
+int numero1 = 1;
+int numeroUm = 1;
+int longo = 1;
+
  ```
+
+## Declarando Métodos
+declarar métodos em java segue uma estrutura simples:
+
+```
+// Estrutura
+
+TipoRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+// exemplo
+
+int somar (int numeroUm , int numeroDois){}
+
+String formatarCep (long cep) {}
+
+````
 

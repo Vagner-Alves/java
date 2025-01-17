@@ -25,6 +25,6 @@ public class HelloWorld {
 	}
 }
 ```
-
+_public static void main_ indica que a classe é executável dentro do método temos 1 parametro especiais _String [] args_ : um array do tipo String com o nome de args, abreviação de argumentos, e um corpo { } 
 
 

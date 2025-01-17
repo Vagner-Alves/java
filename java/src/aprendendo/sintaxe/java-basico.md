@@ -8,7 +8,8 @@ A escrita de códigos de um programa é feito através da composição de palavr
 
 ```
 public class HelloWorld {
-	public static void main(String[] args) {
-	
-	}
+	// código aqui ...
 }
+
+<span style="color:blue">This text is blue</span>
+<span style="color:red">This text is red</span>

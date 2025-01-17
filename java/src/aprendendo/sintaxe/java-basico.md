@@ -13,4 +13,6 @@ public class HelloWorld {
 ```
 
 **regras ao criar classes em java**
+Por padrão o nome das classes começam com letra maiúscula , a maioria das classes começará com  o prefixo " public class" + NomedaClasse + { } ( bloco de código). 
 
+classes executáveis: tem a capacidade de realizar a inicialização de um projeto ( ou inicializar de forma independente). 

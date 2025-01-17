@@ -28,5 +28,9 @@ public class HelloWorld {
 _public static void main_ indica que a classe é executável, dentro do método temos 1 parametro especiais _String [] args_ : um array do tipo String com o nome de args, abreviação de argumentos, e um corpo { }. Ao executar esse classe, o código será inicializado, compilado e vai imprimir a mensagem "olá, mundo".
 
 ## Padrão de Nomenclatura
+quando se trata de escrever códigos na linguagem java, é recomendado seguir algumas **convenções** de escrita. 
+vejamos os itens abaixo:
+
+- ** Arquivo.java**: Todo arquivo .java deve começar com letra maiúscula. Se a palavra for composta, a segunda palavra deve também ser maiúscula, exemplo: Calculadora.java , CalculadoraCientifica.java 
 
 

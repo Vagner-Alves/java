@@ -69,4 +69,14 @@ Para declarar uma variável nós podemos utilizar caracteres, números e símbol
 - o nome deve ser único dentro de um escopo
 
 
+```
+// Declaração inválida de variáveis
+
+int numero&um = 1; // os únicos símbolos permitidos são _ e $
+
+int 1numero = 1; // uma variável não pode começar com número
+int numero um = 1; // não pode ter espaço 
+
+int long = 1; // long é uma palavra reservada do java.
+ ```
 

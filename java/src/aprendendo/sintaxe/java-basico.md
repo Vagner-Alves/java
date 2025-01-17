@@ -49,6 +49,24 @@ String BR = "Brasil";
 double PI = 3.14;
 int ESTADOS_BRASILEIROS = 27;
 int ANO_2018 = 2018;
+
+escrevemos o nome da variável com letras maiúsculas e separando palavras por underline.
  ```
-_escrevemos o nome da variável com letras maiúsculas_
+
+
+## Declarando Variáveis
+
+Para declarar uma variável nós podemos utilizar caracteres, números e símbolos, porém devemos seguir algumas regras da linguagem. 
+
+- Deve conter apenas letras, _ (underline), $ ou os números de 0 a 9
+
+- Deve obrigatoriamente se iniciar por uma letra minúscula ( boa prática ).
+
+- não pode conter espaços
+
+- não podemos usar palavras-chaves da linguagem java
+
+- o nome deve ser único dentro de um escopo
+
+
 

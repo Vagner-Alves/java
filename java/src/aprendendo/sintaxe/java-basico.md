@@ -101,5 +101,13 @@ int somar (int numeroUm , int numeroDois){}
 
 String formatarCep (long cep) {}
 
-````
+````
+## Identação
+Basicamente identar é um termo utilizado para escrever o código do software de forma hierárquica,facilitando a visualização e o entendimento dele.
+
+utilizando a IDE Eclipse, podemos identar o código utilizando as teclas **ctrl + a + ctrl + i**
+
+## Pacotes
+
+A medida que o sistema evolui, novos arquivos ( código fonte) surgem na estrutura do projeto. Isso exige que seja realizada uma organização desses arquivos através de pacotes ( packages ).
 

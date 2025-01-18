@@ -124,6 +124,37 @@ mais cedo aprendemos algumas _regras_ de declaração de variáveis, mas agora i
 
 - Defina um idioma único para suas variáveis. Se voce for declarar nomes em ingles, defina todos no mesmo idioma.
 
-- 
+Não recomendado
+
+``` 
+double salMedio = 1500.23; // variável abreviada
+String emails = "aluno@escola.com"; // nome no plural
+String myName = "Vagner "; // se o nome da variável está em PT-BR, o restante deve estar no mesmo idioma.
+
+// RECOMENDADO
+
+double salarioMedio = 1500.23;
+String email = "aluno@escola.com";
+String [] emails = {email1, email2 , etc};
+String meuNome = "vagner";
+
+```
+
+Os métodos deverão ser nomeados com verbos, através de uma mistura de letras minúsculas e maiúsculas. Em princípio todas as letras que compõem o nome devem ser mantidas em minúsculo, com exceção da primeira letra de cada palavra composta a partir da segunda palavra.
+
+Exemplos:
+
+```
+somar(int n1, int n2){}
+
+abriConexao(){}
+
+concluirProcessamento(){}
+
+findById( int id) {}
+
+calcularImprimir(){} 
+// esse método deveria ter uma única finalidade!
+```
 
 

@@ -77,7 +77,8 @@ int numero&um = 1; // os únicos símbolos permitidos são _ e $
 int 1numero = 1; // uma variável não pode começar com número
 int numero um = 1; // não pode ter espaço 
 
-int long = 1; // long é uma palavra reservada do java.
+int long = 1; // long é uma palavra reservada do java.
+
 // Corrigindo o nome das variáveis
 
 int numero$um = 1;
@@ -101,7 +102,8 @@ int somar (int numeroUm , int numeroDois){}
 
 String formatarCep (long cep) {}
 
-````
+````
+
 ## Identação
 Basicamente identar é um termo utilizado para escrever o código do software de forma hierárquica,facilitando a visualização e o entendimento dele.
 
@@ -110,4 +112,13 @@ utilizando a IDE Eclipse, podemos identar o código utilizando as teclas **ctrl 
 ## Pacotes
 
 A medida que o sistema evolui, novos arquivos ( código fonte) surgem na estrutura do projeto. Isso exige que seja realizada uma organização desses arquivos através de pacotes ( packages ).
+
+## Java Beans
+Uma das maiores dificuldades no desenvolvimento de software é escrever código legíveis a níveis que sejam compreendidos por todo seu time ou por voce mesmo no futuro. Para isso a linguagem Java sugere, através de convenções, formas de escrita universal para nossas classes, atributos , métodos e pacotes. 
+
+mais cedo aprendemos algumas _regras_ de declaração de variáveis, mas agora iremos conhecer algumas _sugestões_ de nomenclatura:
+
+- Uma variável deve ser clara, sem abreviações ou definições.
+
+
 

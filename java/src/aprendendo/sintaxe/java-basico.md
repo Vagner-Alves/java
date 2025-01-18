@@ -120,5 +120,10 @@ mais cedo aprendemos algumas _regras_ de declaração de variáveis, mas agora i
 
 - Uma variável deve ser clara, sem abreviações ou definições.
 
+- Uma variável é sempre no singular, **exceto quando se referir a um array ou coleção**
+
+- Defina um idioma único para suas variáveis. Se voce for declarar nomes em ingles, defina todos no mesmo idioma.
+
+- 
 
 

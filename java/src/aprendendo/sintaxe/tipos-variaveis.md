@@ -11,8 +11,12 @@ _int, byte, short, long, float, double, boolean e char_ - esses tipos são consi
 | short,   | 2 bytes, | -32.768  |    Row 2, Col 4, |    
 | int,     | 4 bytes, | -2.147.483.648| 
 | long,    | 8 bytes, | -9.223.372.036.854.755.808| Row 3, Col4,|
-| float,   |   bytes, |
-| double,  | 
-| boolean  |
-| char     |
+
+os tipos primitivos que podem conter partes fracionárias podems ser representados da maneira abaixo:
+
+| Tipo | Memória | Valor Mínimo | Valor Máximo |
+|----------|----------|----------|------------|
+| float,   | 4 byte,  | -3,4028E + 38    | 3,4028E + 38|
+| double,   | 8 bytes, | -1,7976E + 308  |    1,7976E+ 308 |
+
 

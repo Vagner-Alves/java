@@ -7,8 +7,12 @@ _int, byte, short, long, float, double, boolean e char_ - esses tipos são consi
 
 | Tipo | Memória | Valor Mínimo | Valor Máximo |
 |----------|----------|----------|------------|
-| byte, Col 1 | 1 byte, Col 2 | Row 1, Col 3 | Row 1, Col 4,
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 | Row 2, Col 4,
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 | Row 3, Col 4,
-
+| byte,    | 1 byte,  | -128     | Row 1, Col 4,|
+| short,   | 2 bytes, | -32.768  |    Row 2, Col 4, |    
+| int,     | 4 bytes, | -2.147.483.648| 
+| long,    | 8 bytes, | -9.223.372.036.854.755.808| Row 3, Col4,|
+| float,   |   bytes, |
+| double,  | 
+| boolean  |
+| char     |
 

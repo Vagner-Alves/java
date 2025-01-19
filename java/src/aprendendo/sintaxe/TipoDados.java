@@ -8,8 +8,10 @@ public class TipoDados {
 		long cpf        = 98685039201L;
 		float pi        = 3.14F;
 		double salario  = 1518.44;
-		
+		char estado     =  18;
 		
 	}
 
 }
+//float precisa terminar com F
+// o tipo long precisa terminar com L

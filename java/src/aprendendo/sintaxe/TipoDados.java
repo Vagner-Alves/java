@@ -1,6 +1,6 @@
 package aprendendo.sintaxe;
 
-public class TiposeVariaveis {
+public class TipoDados {
 	public static void main(String [] args) {
 		
 		

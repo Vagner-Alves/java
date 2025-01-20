@@ -34,3 +34,7 @@ antes de definir uma variável em java, faça as seguintes perguntas:
 - a idade de uma pessoa? 
 - o salário de um funcionário? 
 - o CEP de uma cidade? 
+
+## Variáveis e Constantes
+uma variável é uma área de memória, associada a um nome, que pode armazenar valores de um determinado tipo. Um tipo, define um conjunto de valores e um conjunto de operações. Java é uma linguagem _fortemente tipada_, diferente de linguagens como python ou javascript , onde declarar o tipo de variável não é obrigatório.
+

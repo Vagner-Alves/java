@@ -38,3 +38,22 @@ antes de definir uma variável em java, faça as seguintes perguntas:
 ## Variáveis e Constantes
 uma variável é uma área de memória, associada a um nome, que pode armazenar valores de um determinado tipo. Um tipo, define um conjunto de valores e um conjunto de operações. Java é uma linguagem _fortemente tipada_, diferente de linguagens como python ou javascript , onde declarar o tipo de variável não é obrigatório.
 
+No java utilizamos identificadores que representa uma referencia a um valor em memória, e esta referencia pode ser redirecionada a outra, sendo portanto esta a causa do nome "variável" , pois o valor pode variar.
+
+Já as **constantes** são valores armazenados em memória que não podem ser modificados depois de declarados. Em java, esses valores são representados pela palavra reservada **final**, seguida to tipo.
+
+Por convenção, constantes são sempre escritas em CAIXA ALTA.
+
+abaixo temos um exemplo sobre o uso de variáveis e constantes.
+
+```
+// variáveis
+
+int numeroComum = 1;
+int numeroComum = 10;
+// o fenomeno acima é muito comum e esperado de uma variável
+
+// apenas escrever o nome em caixa alta não é o suficiente para definir uma constante, é preciso usar a palavra final antes do tipo!
+final double NUMERO_PI = 3.14;
+
+```

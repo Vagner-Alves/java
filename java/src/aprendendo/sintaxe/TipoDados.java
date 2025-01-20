@@ -9,6 +9,7 @@ public class TipoDados {
 		float pi        = 3.14F;
 		double salario  = 1518.44;
 		char estado     =  18;
+		String nome     = "Vagner Alves";
 		
 	}
 

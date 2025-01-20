@@ -8,7 +8,7 @@ public class TipoDados {
 		long cpf        = 98685039201L;
 		float pi        = 3.14F;
 		double salario  = 1518.44;
-		char estado     =  18;
+		char codigo     =  18;
 		String nome     = "Vagner Alves";
 		
 	}

@@ -63,6 +63,13 @@ public class Operadores {
 
 		// exemplo usando ternário
 		resultadoTernario = (a == b) ? "verdadeiro": "falso";
+		System.out.println(resultadoTernario);
+		
+		resultadoTernario = ( a > b) ? "verdadeiro": "falso";
+		System.out.println(resultadoTernario);
+		
+		resultadoTernario = (a < b) ? "verdadeiro": "falso";
+		System.out.println(resultadoTernario);
 
 		// Operadores Relacionais
 
@@ -85,7 +92,20 @@ public class Operadores {
 			System.out.println(numero1 + " é diferente de " + numero2);
 
 
-
+		// COMPARAÇÕESA AVANÇADAS
+		
+		String nome1 = "Java";
+		String nome2 = "Java";
+				
+		System.out.println(nome1 == nome2); // TRUE
+		
+		String nome3 = new String("JAVA");
+		
+		System.out.println(nome1 == nome3); // FALSE
+		
+		
+		
+		
 
 	}
 

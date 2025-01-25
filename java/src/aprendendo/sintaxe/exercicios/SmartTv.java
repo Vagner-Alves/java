@@ -11,13 +11,24 @@ public class SmartTv {
 
 	}
 
-	public void aumentarVolume() {}
+	public void aumentarVolume() {
+		volume ++;
+	}
 
-	public void diminuirVolume() {}
+	public void diminuirVolume() {
+		volume --;
+	}
 
 	public void mudarCanal (int numeroCanal) {
 		canal = numeroCanal;
 	}
-
+	
+	public void aumentarCanal() {
+		canal ++;
+	}
+	
+	public void diminuirCanal() {
+		canal --;
+	}
 
 }

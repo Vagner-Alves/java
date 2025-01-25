@@ -91,7 +91,6 @@ public class Operadores {
 		if (numero1 != numero2)
 			System.out.println(numero1 + " é diferente de " + numero2);
 
-
 		// COMPARAÇÕESA AVANÇADAS
 		
 		String nome1 = "Java";
@@ -103,10 +102,58 @@ public class Operadores {
 		
 		System.out.println(nome1 == nome3); // FALSE
 		
+		String nome4 = nome3;
+		
+		// EQUALS
+		System.out.println(nome1.equals(nome2));
+		System.out.println(nome2.equals(nome3));
+		System.out.println(nome3.equals(nome4));
+		
+		int primeiroNumero = 130;
+		int segundoNumero  = 130;
+		
+		System.out.println(primeiroNumero == segundoNumero); // TRUE
+		
+		Integer terceiroNumero = 130;
+		Integer quartoNumero  = 130;
+		
+		System.out.println(terceiroNumero == quartoNumero); //FALSE
+		
+		// O RESULTADO SERÁ FALSE, POIS O JAVA TRATA OS VALORES COMO OBJETOS A PARTI DE AGORA.
+		// QUANDO QUEREMOS COMPARAR OBJETOS, USAMOS O MÉTODO equals
+		
+		System.out.println(terceiroNumero.equals(quartoNumero));
+		
+		// LÓGICOS
+		
+		boolean condicao1 = true;
+		boolean condicao2 = false;
+		
+		if(condicao1 && condicao2)
+			System.out.println("Os dois valores precisam ser verdadeiros: ");
+		
+		if ( condicao1 && ( 7 > 4 ))
+			System.out.println("Os dois valores precisam ser verdadeiros:");
+		
+		if(condicao1 || condicao2)
+			System.out.println("Um dos valores precisa ser verdadeiro: ");
 		
 		
 		
-
+		// EXPRESSÕES LÓGICAS AVANÇADAS
+		
+		int quintoNumero = 1;
+		int sextoNumero = 1;
+		
+		if(quintoNumero == 2 & sextoNumero ++ == 2)
+			System.out.println("As 2 condições são verdadeiras");
+		
+		System.out.println("O número 1 agora é: " + quintoNumero);
+		System.out.println("O número 2 agora é: " + sextoNumero);
+		
+		
+		
+		
 	}
 
 }

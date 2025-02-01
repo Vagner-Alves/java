@@ -41,11 +41,5 @@ public class Metodos {
 	// passamos 'Cliente cliente' como parametro
 	public void gravarCliente() {}
 	
-	
-	
-	
-	
-	
-	
 
 }

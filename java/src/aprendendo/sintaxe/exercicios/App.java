@@ -29,6 +29,8 @@ public class App {
 		// diminuir canal -1
 		tv.diminuirCanal();
 		System.out.println("Canal: " + tv.canal);
+		
+		System.out.println(1 + "2");
 	}
 
 }

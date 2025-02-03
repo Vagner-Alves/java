@@ -17,7 +17,8 @@ public class ContaTerminal {
 		numero = teclado.nextInt();
 		
 		System.out.println("informe o número de sua agencia: ");
-		agencia = teclado.nextLine();
+		agencia = teclado.next();
+		teclado.nextLine();
 		
 		System.out.println("informe seu Nome: ");
 		nomeCliente = teclado.nextLine();

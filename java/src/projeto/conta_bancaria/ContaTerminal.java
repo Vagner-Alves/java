@@ -26,8 +26,12 @@ public class ContaTerminal {
 		System.out.println("informe seu saldo: ");
 		saldo = teclado.nextDouble();
 		
-		
+		imprimirDadosCliente(nomeCliente, agencia, numero, saldo);
 
+	}
+	
+	public static void imprimirDadosCliente(String nomeCliente, String agencia, int conta, double saldo) {
+		System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco. Sua agência é %s, conta %d e seu saldo %.2f já está disponível para saque.", nomeCliente, agencia,conta, saldo); 
 	}
 
 }

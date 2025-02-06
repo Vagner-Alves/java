@@ -12,8 +12,17 @@ public class ResultadoEscolar {
 			System.out.println("Aluno, Aprovado!");
 			System.out.println("Parabéns!!!");
 		}
+		
+		else if (nota >=5 && nota < 7)
+			System.out.println("Prova de Recuperação!");
+		
 		else
 			System.out.println("Aluno, Reprovado!");
+		
+		// USANDO CONDICIONAL TERNARIA
+		
+		String resultado = nota >= 7 ? "Aluno, Aprovado!": "Aluno, Reprovado";
+		System.out.println(resultado);
 
 	}
 

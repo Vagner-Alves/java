@@ -16,7 +16,6 @@ public class AnatomiadasClasses {
 		String nomeCompleto = nomeCompleto (nome, sobreNome);
 		System.out.println(nomeCompleto);
 
-
 	}
 
 	// método nomeCompleto, do tipo String, recebe dois parametros e os concatena com a função concat.

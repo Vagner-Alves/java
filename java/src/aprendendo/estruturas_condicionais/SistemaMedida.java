@@ -4,7 +4,7 @@ public class SistemaMedida {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String sigla = "M";
+		String sigla = "G";
 		
 		switch(sigla) {
 		

@@ -13,7 +13,7 @@ public class ExemploWhile {
 			/*if(valorDoce > mesada)
 				valorDoce = mesada;
 			*/
-			System.out.println("Doce do valor: " + valorDoce + " adicionado ao carrinho!");
+			System.out.println("Doce de valor R$: " + valorDoce + " adicionado ao carrinho!");
 			mesada -= valorDoce;
 		}
 		

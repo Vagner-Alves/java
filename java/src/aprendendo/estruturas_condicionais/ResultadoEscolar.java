@@ -20,7 +20,6 @@ public class ResultadoEscolar {
 			System.out.println("Aluno, Reprovado!");
 		
 		// USANDO CONDICIONAL TERNARIA
-		
 		String resultado = nota >= 7 ? "Aluno, Aprovado!": "Aluno, Reprovado";
 		System.out.println(resultado);
 

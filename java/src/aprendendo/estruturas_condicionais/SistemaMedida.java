@@ -17,8 +17,14 @@ public class SistemaMedida {
 			System.out.println("MAIOR");
 			break;
 		}
+		
+		case "G":{
+			System.out.println("GRANDE");
+			break;
 		}
-
+		default:
+			System.out.println("INDEFINIDO");
 	}
 
 }
+	}

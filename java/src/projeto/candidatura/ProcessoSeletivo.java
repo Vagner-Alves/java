@@ -13,6 +13,21 @@ public class ProcessoSeletivo {
 		
 		selecionarCandidatos();
 		//System.out.println(valorPretendido());
+		
+		imprimirSelecionados();
+	}
+	
+	static void imprimirSelecionados() {
+		String [] candidatos = {"VAGNER","LAVINIA","LARISSA","JOÃO","BRENO"};
+		
+		System.out.println("Imprimindo a lista de candidatos informando o indice do elemento");
+		
+		for(int indice =0; indice < candidatos.length; indice ++) {
+			System.out.println("O candidato de nº " + (indice + 1) + " é " + candidatos[indice]);
+		}
+		
+		System.out.println();
+		
 	}
 	
 	static void selecionarCandidatos() {

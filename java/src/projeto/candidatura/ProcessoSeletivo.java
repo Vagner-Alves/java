@@ -14,6 +14,14 @@ public class ProcessoSeletivo {
 		if( salarioBase > salarioPretendido) {
 			System.out.println("Ligar para o Candidato");
 		}
+		
+		else if (salarioBase == salarioPretendido) {
+			System.out.println("Ligar para o candidato e apresentar contra proposta");
+		}
+		
+		else {
+			System.out.println("Aguardar resultado dos demais candidatos");
+		}
 	}
 
 }

@@ -5,6 +5,9 @@ public class ProcessoSeletivo {
 	public static void main(String[] args) {
 		System.out.println("Processo Seletivo: ");
 		
+		analisarCandidato(1800);
+		analisarCandidato(2000);
+		analisarCandidato(4000);
 
 	}
 	

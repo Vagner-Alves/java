@@ -16,6 +16,11 @@ public class ProcessoSeletivo {
 		//System.out.println(valorPretendido());
 		
 		imprimirSelecionados();
+		
+		String [] candidatos = {"VAGNER","LAVINIA","LARISSA","JOÃO","BRENO"};
+		for(String candidato: candidatos) {
+			entrarEmContato(candidato);
+		}
 	}
 	
 	static void entrarEmContato(String candidato) {

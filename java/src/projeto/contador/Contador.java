@@ -26,8 +26,8 @@ public class Contador {
 			throw new ParametrosInvalidosException();
 		
 		int contagem = parametroDois - parametroUm;
-		for (int numeros: contagem) {
-			
+		for (int i = 1; i <= contagem; i++) {
+			System.out.println("imprimindo números: " + i);
 		}
 		
 	}

@@ -1,5 +1,6 @@
 package projeto.candidatura;
 
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ProcessoSeletivo {
@@ -17,6 +18,29 @@ public class ProcessoSeletivo {
 		imprimirSelecionados();
 	}
 	
+	static void entrarEmContato(String candidato) {
+		int tentativasRealizadas = 1;
+		boolean continuarTentando = true;
+		boolean atendeu = false;
+		
+		do {
+			atendeu = atender();
+			continuarTentando = !atendeu;
+			if(continuarTentando)
+				tentativasRealizadas ++;
+			else
+				System.out.println("Contato realizado com sucesso");
+		} while (continuarTentando && tentativasRealizadas < 3);
+		
+		if(atendeu)
+			System.out.println("conseguimos contato com: " + candidato + " na " + tentativasRealizadas);
+		else
+			System.out.println("não foi possível ter contato com " + candidato + ", número máximo de tantivas alcançado");
+	}
+	
+	static boolean atender() {
+		return new Random().nextInt(3)==1;
+	}
 	static void imprimirSelecionados() {
 		String [] candidatos = {"VAGNER","LAVINIA","LARISSA","JOÃO","BRENO"};
 		

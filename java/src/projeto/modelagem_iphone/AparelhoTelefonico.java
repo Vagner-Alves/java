@@ -1,5 +1,7 @@
 package projeto.modelagem_iphone;
 
 public class AparelhoTelefonico {
-
+	public void ligar() {}
+	public void atender() {}
+	public void iniciarCorreioVoz() {}
 }

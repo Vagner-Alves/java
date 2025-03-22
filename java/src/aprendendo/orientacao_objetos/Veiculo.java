@@ -1,6 +1,6 @@
 package aprendendo.orientacao_objetos;
 
-public class Veiculo {
+public abstract class Veiculo {
 	private String chassi;
 
 	public String getChassi() {
@@ -11,5 +11,6 @@ public class Veiculo {
 		this.chassi = chassi;
 	}
 	
+	public abstract void ligar();
 
 }

@@ -1,6 +1,6 @@
 package aprendendo.orientacao_objetos;
 
-public class Carro {
+public class Carro extends Veiculo{
 	
 	public void ligar() {
 		conferirCambio();

@@ -1,5 +1,5 @@
 package aprendendo.orientacao_objetos;
 
-public class Moto {
+public class Moto extends Veiculo {
 
 }

@@ -3,9 +3,9 @@ package projeto.modelagem_iphone;
 public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorInternet{
 
 	@Override
-	public void exibirPagina() {
+	public void exibirPagina(String url) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("www." + url + ".com");
 	}
 
 	@Override
@@ -39,9 +39,9 @@ public class Iphone implements AparelhoTelefonico, ReprodutorMusical, NavegadorI
 	}
 
 	@Override
-	public void ligar() {
+	public void ligar(String numero) {
 		// TODO Auto-generated method stub
-		
+		System.out.println("ligando para " + numero);
 	}
 
 	@Override
